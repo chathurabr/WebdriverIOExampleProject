@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./.tsbuild/",
+        "sourceMap": false,
+        "target": "es5",
+        "module": "commonjs",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "expect-webdriverio",
+            "@wdio/jasmine-framework"
+          ],
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+    },
+    "include": ["test/**/*.ts"]
+}
